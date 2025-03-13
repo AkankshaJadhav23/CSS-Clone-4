@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    background-color: orangered;
+    height: 130px;
+    display: flex;
+}
+.container img{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 4px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.container h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.container1{
+    display: flex;
+    margin-left: 300px;
+    gap: 20px;
+    color: white;
+    margin-top: 40px;
+   
+}
+.container button{
+    
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+.button1{
+    height: 50px;
+    width: 200px;
+    padding: 2px;
+    font-size: 24px;
+    color: white;
+    background-color: orangered;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+.button2{
+    height: 50px;
+    width: 150px;
+     padding: 2px;
+    font-size: 20px;
+    color: white;
+    background-color:black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.content{
+    background-color: orangered;
+    height: 640px;
+    text-align: center;
+    color: white;
+}
+.content h1{
+   font-size: 60px;
+}
+.content input{
+        height: 50px;
+        width: 300px;
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 16px;
+        margin-top: 40px;
+        gap: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;  /* तीन div मध्ये space */
+    align-items: center;
+    flex-wrap: wrap;
+     color: black;
+    margin: 20px auto; 
+    max-width: 800px; 
+    height: 100px;
+    gap: 20px;
+}
+
+.cate {
+    width: 250px; 
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 40px;
+    height: 250px;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cate img{
+   
+   margin-left: 90px;
+}
+.div{
+    height: 15px;
+    width: 1350px;
+    background-color: white;
+    margin-top: 230px;
+    margin-left: 80px;
+}
+.outer{
+    display: flex;
+    margin-left: 100px;
+    gap: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+.outer p,.outer1 p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.outer1{
+    display: flex;
+    margin-left: 100px;
+    gap: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+.arrow{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 80px;
+    gap: 30px;
+}
+.app{
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 300px;
+}
+.cities{
+    margin-top: 100px;
+    
+}
+.cities h2{
+    margin-left: 70px;
+}
+.order-online{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+    margin: 10px auto; 
+    max-width: 1000px; 
+    height: 70px;
+   
+}
+.online{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 250px;
+    padding: 20px;
+    font-size: 17px;
+    text-align: center;
+    gap: 10px;
+}
+.online1{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 250px;
+    padding: 23px;
+    font-size: 17px;
+    text-align: center;
+
+}
+.online2{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 250px;
+    padding: 20px;
+    font-size: 17px;
+    text-align: center;
+}
+.cities1 h2{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.grocery-delivery{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+    margin: 10px auto; 
+    max-width: 1000px; 
+    height: 70px;
+    margin-top: 30px;
+}
+.delivery{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 250px;
+    padding: 20px;
+    font-size: 17px;
+    text-align: center;
+}
+.delivery1{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 250px;
+    padding: 20px;
+    font-size: 17px;
+    text-align: center;
+}
+.delivery2{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 250px;
+    padding: 20px;
+    font-size: 17px;
+    text-align: center;
+}
+#more{
+    color: orangered;
+    font-size: 15px;
+
+}
+.swiggy{
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.swiggy img{
+    background-color: orangered;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 4px;
+   
+}
+.swiggy h1{
+    display: flex;
+    color: orangered;
+    margin-left: 20px;
+}
+.info{
+    display: flex;
+    margin-top: 140px;
+    margin-left: 120px;
+    gap: 60px;
+}
+.info h3{
+    padding: 20px;
+}
+.info p{
+    padding: 13px;
+}
+.line{
+    height: 200px;
+    color: black;
+    width: 20px;
+}
